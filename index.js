@@ -4,6 +4,7 @@ const record = [
   {year: "2016", result: "N/A"}
 ]
 function superbowlWin(arr){
-return arr.find(s => s.result === "W" )
+let y = arr.find(s => s.result === "W" )
+return y? y.year : undefined;
 }
 superbowlWin(record);
