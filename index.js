@@ -6,3 +6,4 @@ const record = [
 function superbowlWin(arr){
 return arr.find(s => s.result === "W" )
 }
+superbowlWin(record);
